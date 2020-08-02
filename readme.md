@@ -1,7 +1,10 @@
 
-<br>
-283 move zeros                                    
-<br>
+
+序号  | 中文题目                          |  英文题目                             | 链接
+---  |---                               |---                                    |---
+283  | 移动零                            | move zeros                           | https://leetcode-cn.com/problems/move-zeroes/
+
+
 27  remove element
 <br>
 26  remove duplicated form sorted array
