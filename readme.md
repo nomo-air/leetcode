@@ -1,8 +1,9 @@
 
 
 序号  | 中文题目                          |  英文题目                             | 链接
----  |---                               |---                                    |---
+---  |---                               |---                                   |---
 283  | 移动零                            | move zeros                           | https://leetcode-cn.com/problems/move-zeroes/
+27   | 移除元素                          | remove element                       | https://leetcode-cn.com/problems/remove-element/
 
 
 27  remove element
