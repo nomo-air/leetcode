@@ -5,10 +5,8 @@
 283  | 移动零                            | move zeros                           | https://leetcode-cn.com/problems/move-zeroes/
 27   | 移除元素                          | remove element                       | https://leetcode-cn.com/problems/remove-element/
 26   | 删除排序数组中的重复项               | remove duplicated form sorted array  | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+80   | 删除排序数组中的重复项 II            | remove duplicated form sorted array 2 | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
 
-26  remove duplicated form sorted array
-<br>
-80  remove duplicated form sorted array 2
 <br>
 75  Sort Colors 					  
 <br>
