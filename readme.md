@@ -6,10 +6,9 @@
 27   | 移除元素                          | remove element                       | https://leetcode-cn.com/problems/remove-element/
 26   | 删除排序数组中的重复项               | remove duplicated form sorted array  | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
 80   | 删除排序数组中的重复项 II            | remove duplicated form sorted array 2 | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
+75   | 颜色分类                           | Sort Colors 				           | https://leetcode-cn.com/problems/sort-colors/	  
 
-<br>
-75  Sort Colors 					  
-<br>
+
 88  Merge Sorted Array
 <br>
 215 Kth Largest Element in an Array
