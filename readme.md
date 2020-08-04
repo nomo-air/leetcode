@@ -7,10 +7,9 @@
 26   | 删除排序数组中的重复项               | remove duplicated form sorted array  | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
 80   | 删除排序数组中的重复项 II            | remove duplicated form sorted array 2 | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
 75   | 颜色分类                           | Sort Colors 				           | https://leetcode-cn.com/problems/sort-colors/	  
+88   | 合并两个有序数组                    | Merge Sorted Array                   | https://leetcode-cn.com/problems/merge-sorted-array/
 
 
-88  Merge Sorted Array
-<br>
 215 Kth Largest Element in an Array
 <br>
 167 Two Sum 2 - input array is sorted
