@@ -11,9 +11,9 @@
 215  | 数组中的第K个最大元素                | Kth Largest Element in an Array     | https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
 167  | 两数之和 II - 输入有序数组           | Two Sum 2 - input array is sorted   | https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/
 125  | 验证回文串                         | Valid Palindrome                    | https://leetcode-cn.com/problems/valid-palindrome/
+344  | 反转字符串                         | Reverse String                      | https://leetcode-cn.com/problems/reverse-string/
 
 
-344 Reverse String
 <br>
 345 Reverse Vowels of a String
 <br>
