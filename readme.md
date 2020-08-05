@@ -1,24 +1,23 @@
 
 
-序号  | 中文题目                          |  英文题目                             | 链接
----  |---                               |---                                   |---
-283  | 移动零                            | move zeros                           | https://leetcode-cn.com/problems/move-zeroes/
-27   | 移除元素                          | remove element                       | https://leetcode-cn.com/problems/remove-element/
-26   | 删除排序数组中的重复项               | remove duplicated form sorted array  | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
-80   | 删除排序数组中的重复项 II            | remove duplicated form sorted array 2 | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
-75   | 颜色分类                           | Sort Colors 				           | https://leetcode-cn.com/problems/sort-colors/	  
-88   | 合并两个有序数组                    | Merge Sorted Array                   | https://leetcode-cn.com/problems/merge-sorted-array/
-215  | 数组中的第K个最大元素                | Kth Largest Element in an Array     | https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
-167  | 两数之和 II - 输入有序数组           | Two Sum 2 - input array is sorted   | https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/
-125  | 验证回文串                         | Valid Palindrome                    | https://leetcode-cn.com/problems/valid-palindrome/
-344  | 反转字符串                         | Reverse String                      | https://leetcode-cn.com/problems/reverse-string/
-345  | 反转字符串中的元音字母               | Reverse Vowels of a String          | https://leetcode-cn.com/problems/reverse-vowels-of-a-string/
-11   | 盛最多水的容器                      | Container With Most Water           | https://leetcode-cn.com/problems/container-with-most-water/
-209  | 长度最小的子数组                    | Minimum Size SubArray Sum           | https://leetcode-cn.com/problems/minimum-size-subarray-sum/
+序号  | 题目                      | 链接
+---  |---                        |---
+283  | 移动零                     | https://leetcode-cn.com/problems/move-zeroes/
+27   | 移除元素                    | https://leetcode-cn.com/problems/remove-element/
+26   | 删除排序数组中的重复项         | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+80   | 删除排序数组中的重复项 II  2   | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
+75   | 颜色分类                    | https://leetcode-cn.com/problems/sort-colors/	  
+88   | 合并两个有序数组              | https://leetcode-cn.com/problems/merge-sorted-array/
+215  | 数组中的第K个最大元素         | https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
+167  | 两数之和 II - 输入有序数组    | https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/
+125  | 验证回文串                  | https://leetcode-cn.com/problems/valid-palindrome/
+344  | 反转字符串                  | https://leetcode-cn.com/problems/reverse-string/
+345  | 反转字符串中的元音字母        | https://leetcode-cn.com/problems/reverse-vowels-of-a-string/
+11   | 盛最多水的容器               | https://leetcode-cn.com/problems/container-with-most-water/
+209  | 长度最小的子数组             | https://leetcode-cn.com/problems/minimum-size-subarray-sum/
+3    | 无重复字符的最长子串          | https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
 
-3   Longest Substring Without Repeating Characters
-<br>
 438 Find All Anagrams in a String 
 <br>
 76  Minimum Window Substring
