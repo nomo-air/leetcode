@@ -6,7 +6,7 @@ import (
 )
 
 func lengthOfLongestSubstring(s string) int {
-	return
+	return 0
 }
 
 func Test345(t *testing.T) {
