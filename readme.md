@@ -25,9 +25,7 @@
 290  | 单词规律                   | https://leetcode-cn.com/problems/word-pattern/
 205  | 同构字符串                  | https://leetcode-cn.com/problems/isomorphic-strings/
 451  | 根据字符出现频率排序          | https://leetcode-cn.com/problems/sort-characters-by-frequency/
-
-<br>
-1   Two Sum
+1    | 两数之和                     | https://leetcode-cn.com/problems/two-sum/
 <br>
 15  3Sum
 <br>
