@@ -21,14 +21,14 @@
 439  | 三元表达式解析               | vip
 350  | 两个数组的交集 II            | https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/
 242  | 有效的字母异位词             | https://leetcode-cn.com/problems/valid-anagram/
-202  | 快乐数                     | https://leetcode-cn.com/problems/happy-number/
-290  | 单词规律                   | https://leetcode-cn.com/problems/word-pattern/
+202  | 快乐数                      | https://leetcode-cn.com/problems/happy-number/
+290  | 单词规律                    | https://leetcode-cn.com/problems/word-pattern/
 205  | 同构字符串                  | https://leetcode-cn.com/problems/isomorphic-strings/
 451  | 根据字符出现频率排序          | https://leetcode-cn.com/problems/sort-characters-by-frequency/
-1    | 两数之和                     | https://leetcode-cn.com/problems/two-sum/
-<br>
-15  3Sum
-<br>
+1    | 两数之和                    | https://leetcode-cn.com/problems/two-sum/
+15   | 三数之和                    | https://leetcode-cn.com/problems/3sum/
+
+
 18  4Sum
 <br>
 16  3Sum Closest
