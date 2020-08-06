@@ -20,10 +20,9 @@
 76   | 最小覆盖子串                 | https://leetcode-cn.com/problems/minimum-window-substring/
 439  | 三元表达式解析               | vip
 350  | 两个数组的交集 II            | https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/
+242  | 有效的字母异位词             | https://leetcode-cn.com/problems/valid-anagram/
 
 
-<br>
-242 Valid Anagram
 <br>
 202 Happy Number
 <br>
