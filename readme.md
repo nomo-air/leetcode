@@ -17,9 +17,7 @@
 209  | 长度最小的子数组             | https://leetcode-cn.com/problems/minimum-size-subarray-sum/
 3    | 无重复字符的最长子串          | https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 438  | 找到字符串中所有字母异位词     | https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
-
-<br>
-76  Minimum Window Substring
+76   | 最小覆盖子串                 | Minimum Window Substring
 <br>
 439 Intersection of Two Arrays
 <br>
