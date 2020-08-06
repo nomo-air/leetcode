@@ -24,9 +24,8 @@
 202  | 快乐数                     | https://leetcode-cn.com/problems/happy-number/
 290  | 单词规律                   | https://leetcode-cn.com/problems/word-pattern/
 205  | 同构字符串                  | https://leetcode-cn.com/problems/isomorphic-strings/
+451  | 根据字符出现频率排序          | https://leetcode-cn.com/problems/sort-characters-by-frequency/
 
-<br>
-451 Sort Characters By Frequency
 <br>
 1   Two Sum
 <br>
