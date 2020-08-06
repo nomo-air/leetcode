@@ -17,11 +17,11 @@
 209  | 长度最小的子数组             | https://leetcode-cn.com/problems/minimum-size-subarray-sum/
 3    | 无重复字符的最长子串          | https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 438  | 找到字符串中所有字母异位词     | https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
-76   | 最小覆盖子串                 | Minimum Window Substring
-439  | 三元表达式解析               | Intersection of Two Arrays
+76   | 最小覆盖子串                 | https://leetcode-cn.com/problems/minimum-window-substring/
+439  | 三元表达式解析               | vip
+350  | 两个数组的交集 II            | https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/
 
-<br>
-350 Intersection of Two Arrays
+
 <br>
 242 Valid Anagram
 <br>
