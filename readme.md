@@ -22,10 +22,9 @@
 350  | 两个数组的交集 II            | https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/
 242  | 有效的字母异位词             | https://leetcode-cn.com/problems/valid-anagram/
 202  | 快乐数                     | https://leetcode-cn.com/problems/happy-number/
+290  | 单词规律                   | https://leetcode-cn.com/problems/word-pattern/
 
-<br>
-290 Word Pattern
-<br>
+
 205 Isomorphic Strings
 <br>
 451 Sort Characters By Frequency
