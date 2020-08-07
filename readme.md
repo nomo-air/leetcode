@@ -34,7 +34,8 @@
 49   | 字母异位词分组                | https://leetcode-cn.com/problems/group-anagrams/
 447  | 回旋镖的数量                 | https://leetcode-cn.com/problems/number-of-boomerangs/
 149  | 直线上最多的点数              | https://leetcode-cn.com/problems/max-points-on-a-line/
-719  | 找出第 k 小的距离对           | 
+719  | 找出第 k 小的距离对           | https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/
+
 
 219 Contains Duplicate 2
 <br>
