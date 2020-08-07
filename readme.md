@@ -32,8 +32,8 @@
 16   | 最接近的三数之和              | https://leetcode-cn.com/problems/3sum-closest/
 454  | 四数相加 II                  | https://leetcode-cn.com/problems/4sum-ii/
 49   | 字母异位词分组                | https://leetcode-cn.com/problems/group-anagrams/
-447  | 回旋镖的数量                 |  https://leetcode-cn.com/problems/number-of-boomerangs/
-149  | 直线上最多的点数              | 
+447  | 回旋镖的数量                 | https://leetcode-cn.com/problems/number-of-boomerangs/
+149  | 直线上最多的点数              | https://leetcode-cn.com/problems/max-points-on-a-line/
 719  | 找出第 k 小的距离对           | 
 
 219 Contains Duplicate 2
