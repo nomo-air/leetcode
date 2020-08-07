@@ -35,10 +35,9 @@
 447  | 回旋镖的数量                 | https://leetcode-cn.com/problems/number-of-boomerangs/
 149  | 直线上最多的点数              | https://leetcode-cn.com/problems/max-points-on-a-line/
 719  | 找出第 k 小的距离对           | https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/
+219  | 存在重复元素 II              | https://leetcode-cn.com/problems/contains-duplicate-ii/
 
 
-219 Contains Duplicate 2
-<br>
 217 Contains Duplicate
 <br>
 220 Contains Duplicate 3
