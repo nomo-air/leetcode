@@ -18,8 +18,9 @@
 3    | 无重复字符的最长子串          | https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 438  | 找到字符串中所有字母异位词     | https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
 76   | 最小覆盖子串                 | https://leetcode-cn.com/problems/minimum-window-substring/
-439  | 三元表达式解析               | vip
+349  | 两个数组的交集               | https://leetcode-cn.com/problems/intersection-of-two-arrays/
 350  | 两个数组的交集 II            | https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/
+136  | 只出现一次的数字             | https://leetcode-cn.com/problems/single-number/
 242  | 有效的字母异位词             | https://leetcode-cn.com/problems/valid-anagram/
 202  | 快乐数                      | https://leetcode-cn.com/problems/happy-number/
 290  | 单词规律                    | https://leetcode-cn.com/problems/word-pattern/
@@ -31,11 +32,10 @@
 16   | 最接近的三数之和              | https://leetcode-cn.com/problems/3sum-closest/
 454  | 四数相加 II                  | https://leetcode-cn.com/problems/4sum-ii/
 49   | 字母异位词分组                | https://leetcode-cn.com/problems/group-anagrams/
+447  | 回旋镖的数量                 |  https://leetcode-cn.com/problems/number-of-boomerangs/
+149  | 直线上最多的点数              | 
+719  | 找出第 k 小的距离对           | 
 
-
-<br>
-447 Number of Boomerangs
-<br>
 219 Contains Duplicate 2
 <br>
 217 Contains Duplicate
