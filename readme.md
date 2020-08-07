@@ -37,10 +37,9 @@
 719  | 找出第 k 小的距离对           | https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/
 219  | 存在重复元素 II              | https://leetcode-cn.com/problems/contains-duplicate-ii/
 217  | 存在重复元素                 | https://leetcode-cn.com/problems/contains-duplicate/
+220  | 存在重复元素 III             | https://leetcode-cn.com/problems/contains-duplicate-iii/
 
-<br>
-220 Contains Duplicate 3
-<br>
+
 206 Reverse Linked List
 <br>
 92  Reverse Linked List 2
