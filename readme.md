@@ -43,9 +43,8 @@
 83   | 删除排序链表中的重复元素       | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
 86   | 分隔链表                    | https://leetcode-cn.com/problems/partition-list/
 328  | 奇偶链表                    | https://leetcode-cn.com/problems/odd-even-linked-list/     
+2    | 两数相加                    | https://leetcode-cn.com/problems/add-two-numbers/
 
-
-2   Add Two Numbers
 <br>
 445 Add Two Numbers 2
 <br>
