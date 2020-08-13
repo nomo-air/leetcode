@@ -41,10 +41,9 @@
 206  | 反转链表                    | https://leetcode-cn.com/problems/reverse-linked-list/
 92   | 反转链表 II                 | https://leetcode-cn.com/problems/reverse-linked-list-ii/
 83   | 删除排序链表中的重复元素       | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
+86   | 分隔链表                    | https://leetcode-cn.com/problems/partition-list/
 
 
-86  Partition List
-<br>
 2   Add Two Numbers
 <br>
 445 Add Two Numbers 2
