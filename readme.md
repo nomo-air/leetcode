@@ -38,10 +38,8 @@
 219  | 存在重复元素 II              | https://leetcode-cn.com/problems/contains-duplicate-ii/
 217  | 存在重复元素                 | https://leetcode-cn.com/problems/contains-duplicate/
 220  | 存在重复元素 III             | https://leetcode-cn.com/problems/contains-duplicate-iii/
+206  | 反转链表                    | https://leetcode-cn.com/problems/reverse-linked-list/
 
-
-206 Reverse Linked List
-<br>
 92  Reverse Linked List 2
 <br>
 83  Remove Duplicates from Sorted List
