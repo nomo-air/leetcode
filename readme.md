@@ -42,6 +42,7 @@
 92   | 反转链表 II                 | https://leetcode-cn.com/problems/reverse-linked-list-ii/
 83   | 删除排序链表中的重复元素       | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
 86   | 分隔链表                    | https://leetcode-cn.com/problems/partition-list/
+328  | 奇偶链表                    | https://leetcode-cn.com/problems/odd-even-linked-list/     
 
 
 2   Add Two Numbers
@@ -51,6 +52,8 @@
 203 Remove Linked List Elements
 <br>
 82  Remove Duplicates from Sorted List 2
+<br>
+21
 <br>
 24  Swap Nodes in Pairs
 <br>
