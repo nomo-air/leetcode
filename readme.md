@@ -46,11 +46,9 @@
 2    | 两数相加                    | https://leetcode-cn.com/problems/add-two-numbers/
 445  | 两数相加 II                 | https://leetcode-cn.com/problems/add-two-numbers-ii/
 203  | 移除链表元素                 | https://leetcode-cn.com/problems/remove-linked-list-elements/
+82   | 删除排序链表中的重复元素 II    | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/
 
 
-<br>
-82  Remove Duplicates from Sorted List 2
-<br>
 21
 <br>
 24  Swap Nodes in Pairs
