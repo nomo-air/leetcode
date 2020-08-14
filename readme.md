@@ -51,9 +51,8 @@
 24   | 两两交换链表中的节点          | https://leetcode-cn.com/problems/swap-nodes-in-pairs/
 25   | K个一组翻转链表              | https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
 147  | 对链表进行插入排序            | https://leetcode-cn.com/problems/insertion-sort-list/
+148  | 排序链表                    | https://leetcode-cn.com/problems/sort-list/
 
-<br>
-148 Sort List
 <br>
 237 Delete Node in a Linked List
 <br>
