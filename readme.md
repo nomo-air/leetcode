@@ -47,11 +47,10 @@
 445  | 两数相加 II                 | https://leetcode-cn.com/problems/add-two-numbers-ii/
 203  | 移除链表元素                 | https://leetcode-cn.com/problems/remove-linked-list-elements/
 82   | 删除排序链表中的重复元素 II    | https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/
-21   | 合并两个有序链表              | https://leetcode-cn.com/problems/merge-two-sorted-lists/
-24   | 两两交换链表中的节点           | https://leetcode-cn.com/problems/swap-nodes-in-pairs/
+21   | 合并两个有序链表             | https://leetcode-cn.com/problems/merge-two-sorted-lists/
+24   | 两两交换链表中的节点          | https://leetcode-cn.com/problems/swap-nodes-in-pairs/
+25   | K个一组翻转链表             | https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
 
-<br>
-25  Reverse Nodes in k-Group
 <br>
 147 Insertion Sort List
 <br>

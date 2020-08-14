@@ -46,7 +46,7 @@ func swapPairs2(head *ListNode) *ListNode {
 	return dummyHead.Next
 }
 
-func Test2(t *testing.T) {
+func Test24(t *testing.T) {
 	// 2 -> 1 -> 4 -> 3
 	s := swapPairs2(&ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, nil}}}})
 	for s != nil {
