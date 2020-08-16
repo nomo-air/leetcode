@@ -53,9 +53,8 @@
 147  | 对链表进行插入排序            | https://leetcode-cn.com/problems/insertion-sort-list/
 148  | 排序链表                    | https://leetcode-cn.com/problems/sort-list/
 237  | 删除链表中的节点              | https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
+19   | 删除链表的倒数第N个节点        | https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
 
-<br>
-19  Remove Nth Node From End of List
 <br>
 61  Rotate List
 <br>
