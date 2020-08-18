@@ -70,7 +70,7 @@ _    | _
 71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/)
 144  | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 94   | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
-145
+145  | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 
 341  | Flatten nested List Iterator
 <br>
