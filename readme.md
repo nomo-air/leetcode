@@ -69,7 +69,7 @@ _    | _
 150  | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
 71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/)
 144  | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
-94
+94   | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 145
 
 341  | Flatten nested List Iterator
