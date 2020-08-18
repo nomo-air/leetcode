@@ -1,5 +1,4 @@
-
-[LearnShare](http://xianbai.me) 
+# 源：https://github.com/liuyubobobo/Play-with-Algorithm-Interview
 
 
 序号  | 题目                      
@@ -66,15 +65,12 @@ _    | _
 234  | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) 
 _    | _ 
 栈、队列、优先队列  | _ 
-
-20 
-150
-71
-144
+20   | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+150  | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
+71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/)
+144  | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 94
 145
-
-
 
 341  | Flatten nested List Iterator
 <br>
