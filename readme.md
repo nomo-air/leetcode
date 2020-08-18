@@ -71,35 +71,20 @@ _    | _
 144  | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 94   | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 145  | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
-
-341  | Flatten nested List Iterator
-<br>
-102 Binary Tree Level Order Traversal
-<br>
-107 Binary Tree Level Order Traversal 2
-<br>
-103 Binary Tree Zigzay Level Order Traversal
-<br>
-199 Binary Tree Right Side View
-
-346
-
-<br>
-279 Perfect Squares
-<br>
-127 Word Ladder
-<br>
-126 Word Ladder 2
-
-286
-
-<br>
-347 Top K Frequent Elements
-<br>
-23  Merge k Sorted Lists
-
-
-----
+341  | [扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)
+102  | [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+107  | [二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
+103  | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
+199  | [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
+346  | [数据流中的移动平均值](https://leetcode-cn.com/problemset/all/?search=346)
+279  | [完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
+127  | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)
+126  | [单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
+286  | [墙与门](https://leetcode-cn.com/problemset/all/?search=286)
+347  | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+23   | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) 
+_    | _ 
+二叉树和递归  | _ 
 <br>
 104 Maximum Depth of Binary Tree
 <br>
@@ -222,3 +207,8 @@ _    | _
 435 Non-overlapping Intervales
 <br>
 279 Perfect Squares
+
+
+
+----
+509 斐波那契数
