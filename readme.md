@@ -86,42 +86,29 @@ _    | _
 _    | _ 
 二叉树和递归  | _ 
 104  | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+111  | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
+226  | [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
+100  | [相同的树](https://leetcode-cn.com/problems/same-tree/)
+101  | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+222  | [完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
+110  | [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
+112  | [路径总和](https://leetcode-cn.com/problems/path-sum/)
+404  | [左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)
+257  | [二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)
+113  | [路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)
+129  | [求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
+437  | [路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/)
+783  | [二叉搜索树节点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/)
+235  | [二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+98   | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+450  | [删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/)
+108  | [将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
+230  | [二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
+236  | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) 
+530  | [二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)
+_    | _ 
+递归和回溯法  | _ 
 
-<br>
-111 MiniMum Depth of Binary Tree
-<br>
-226 Invert Binary Tree
-<br>
-101 Symmetric Tree
-<br>
-222 Count Complete Tree Nodes
-<br>
-110 Balanced Binary Tree
-<br>
-112 Path Sum
-<br>
-404 Sum of Left Leaves
-<br>
-257 Binary Tree Paths
-<br>
-113 Path Sum 2
-<br>
-129 Sum Root to Leaf Numbers
-<br>
-437 Path Sum 3
-<br>
-235 Lowest Common Ancestor of a Binary Search Tree
-<br>
-98  Validate Binary Search Tree
-<br>
-450 Delete Node in a BST
-<br>
-108 Convert Sorted Array bot Binary Search Tree
-<br>
-230 Kth Smallest Element in a BST
-<br>
-236 Lowest Common Ancestor of a Binary Tree
-<br>
 17  Letter Combinations of a Phone Number
 <br>
 93  Restord IP Addresses
@@ -133,6 +120,9 @@ _    | _
 47  Permutations 2
 <br>
 77  Combinations
+
+79
+
 <br>
 39  Combination Sum
 <br>
@@ -159,6 +149,8 @@ _    | _
 52  N-Queens 2
 <br>
 37  Sudoku Solver
+
+--------
 <br>
 70  Climbing Stairs
 <br>
@@ -200,6 +192,8 @@ _    | _
 <br>
 376 Wiggle Subsequence
 <br>
+
+-------
 455 Assign Cookies
 <br>
 392 Is Subsequence
