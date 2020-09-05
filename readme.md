@@ -10,13 +10,13 @@
 80   | 中等 |[删除排序数组中的重复项 II 2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | √
 75   | 中等 |[颜色分类](https://leetcode-cn.com/problems/sort-colors/) | √
 88   | 中等 |[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | √
-215  | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) 
-167  | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) 
-125  | [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) 
-344  | [反转字符串](https://leetcode-cn.com/problems/reverse-string/) 
-345  | [反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) 
-11   | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) 
-209  | [长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) 
+215  | 中等 |[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | √
+167  | 简单 |[两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | √
+125  | 简单 |[验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | √
+344  | 简单 |[反转字符串](https://leetcode-cn.com/problems/reverse-string/)  | √
+345  | 简单 |[反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) | √
+11   | 中等 |[盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | √
+209  | 中等 |[长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) 
 3    | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 
 438  | [找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) 
 76   | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) 
