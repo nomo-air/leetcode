@@ -1,11 +1,12 @@
 # 源：https://github.com/liuyubobobo/Play-with-Algorithm-Interview
 
 
-序号  | 题目                      
----  |---
-数组  | _                          
-283  | [移动零](https://leetcode-cn.com/problems/move-zeroes/) 
-27   | [移除元素](https://leetcode-cn.com/problems/remove-element/) 
+## 数组
+
+序号  | 难度  | 题目 | 进度                  
+---  |---   |---  | ---                   
+283  | 简单  |[移动零](https://leetcode-cn.com/problems/move-zeroes/) | √
+27   | 简单  |[移除元素](https://leetcode-cn.com/problems/remove-element/) 
 26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) 
 80   | [删除排序数组中的重复项 II  2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) 
 75   | [颜色分类](https://leetcode-cn.com/problems/sort-colors/) 	  
@@ -108,10 +109,9 @@ _    | _
 530  | [二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)
 _    | _ 
 递归和回溯法  | _ 
+17   | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+93   | [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)
 
-17  Letter Combinations of a Phone Number
-<br>
-93  Restord IP Addresses
 <br>
 131 Palindrome Partitioning
 <br>
@@ -150,7 +150,7 @@ _    | _
 <br>
 37  Sudoku Solver
 
---------
+--------动态规划基础
 <br>
 70  Climbing Stairs
 <br>
@@ -193,7 +193,7 @@ _    | _
 376 Wiggle Subsequence
 <br>
 
--------
+-------贪心算法
 455 Assign Cookies
 <br>
 392 Is Subsequence
