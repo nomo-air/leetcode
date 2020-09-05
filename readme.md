@@ -2,7 +2,6 @@
 
 
 ## 数组
-
 序号  | 难度 | 题目 | 进度                  
 ---  |---  |---  | ---                   
 283  | 简单 |[移动零](https://leetcode-cn.com/problems/move-zeroes/) | √
@@ -10,7 +9,7 @@
 26   | 简单 |[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | √
 80   | 中等 |[删除排序数组中的重复项 II 2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | √
 75   | 中等 |[颜色分类](https://leetcode-cn.com/problems/sort-colors/) | √
-88   | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) 
+88   | 中等 |[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | √
 215  | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) 
 167  | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) 
 125  | [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) 
@@ -43,9 +42,11 @@ _    | _
 219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) 
 217  | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) 
 220  | [存在重复元素 III](https://leetcode-cn.com/problems/contains-duplicate-iii/) 
-_    | _ 
-链表  | _ 
-206  | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) 
+
+## 链表
+序号  | 难度 | 题目 | 进度                  
+---  |---  |---  | ---    
+206  | 简单 |[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | √
 92   | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) 
 83   | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) 
 86   | [分隔链表](https://leetcode-cn.com/problems/partition-list/) 
