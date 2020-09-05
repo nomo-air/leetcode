@@ -6,29 +6,31 @@ import (
 )
 
 func removeDuplicates(nums []int) int {
-	if len(nums) <= 0 {
+	if nums == nil || len(nums) == 0 {
 		return 0
 	}
+	if len(nums) == 1 {
+		return 1
+	}
 
-	startIndex := 0
-	startCount := 0
-	startValue := -1
-	for i := 0; i <= len(nums)-1; i++ {
-		if startValue != nums[i] {
-			nums[startIndex] = nums[i]
-			startCount = 1
-			startValue = nums[i]
-			startIndex++
-		} else if startCount < 2 {
-			nums[startIndex] = nums[i]
-			startCount++
-			startIndex++
+	start := 0
+	end := 1
+	count := 1
+	numsLen := len(nums)
+
+	for ; end < numsLen; end++ {
+		if nums[end] == nums[end-1] {
+			count++
 		} else {
-			startCount++
+			count = 1
+		}
+
+		if count <= 2 {
+			start++
+			nums[start] = nums[end]
 		}
 	}
-	fmt.Printf("%+v", nums)
-	return startIndex
+	return start + 1
 }
 
 func Test80(t *testing.T) {
