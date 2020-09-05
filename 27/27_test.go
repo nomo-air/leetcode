@@ -6,34 +6,19 @@ import (
 )
 
 func removeElement(nums []int, val int) int {
-	index := 0
-	for _, v := range nums {
-		if v != val {
-			nums[index] = v
-			index++
-		}
-	}
-	fmt.Printf("%+v", nums)
-	return index
-}
-
-func removeElement2(nums []int, val int) int {
-	endIndex := len(nums) - 1
-	startIndex := 0
-	for endIndex >= startIndex {
-		if nums[startIndex] == val {
-			nums[startIndex] = nums[endIndex]
-			endIndex--
+	l := 0
+	r := len(nums) - 1
+	for r >= l {
+		if nums[l] == val {
+			nums[l] = nums[r]
+			r--
 		} else {
-			startIndex++
+			l++
 		}
 	}
-
-	fmt.Printf("%+v", nums)
-	return startIndex
+	return l
 }
-
 func Test27(t *testing.T) {
-	n := removeElement2([]int{3, 2, 2, 3}, 3)
+	n := removeElement([]int{3, 2, 2, 3}, 3)
 	fmt.Printf("%+v", n)
 }

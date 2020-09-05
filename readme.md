@@ -6,8 +6,8 @@
 序号  | 难度  | 题目 | 进度                  
 ---  |---   |---  | ---                   
 283  | 简单  |[移动零](https://leetcode-cn.com/problems/move-zeroes/) | √
-27   | 简单  |[移除元素](https://leetcode-cn.com/problems/remove-element/) 
-26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) 
+27   | 简单  |[移除元素](https://leetcode-cn.com/problems/remove-element/) | √
+26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | √
 80   | [删除排序数组中的重复项 II  2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) 
 75   | [颜色分类](https://leetcode-cn.com/problems/sort-colors/) 	  
 88   | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) 
