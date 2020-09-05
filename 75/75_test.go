@@ -1,36 +1,33 @@
 package _75
 
 import (
-	"fmt"
 	"testing"
 )
 
 func sortColors(nums []int) {
-	l := -1
-	r := len(nums)
+	if nums == nil || len(nums) == 0 {
+		return
+	}
 
-	for i := 0; i < r; {
-		if nums[i] == 1 {
+	redIndex := 0
+	blueIndex := len(nums) - 1
+
+	for i := 0; i <= blueIndex; {
+		switch nums[i] {
+		case 0:
+			nums[i] = nums[redIndex]
+			nums[redIndex] = 0
+			redIndex++
 			i++
-		} else if nums[i] == 2 {
-			r = r - 1
-
-			tmp := nums[i]
-			nums[i] = nums[r]
-			nums[r] = tmp
-
-		} else { // nums[i] == 0
-			l = l + 1
-
-			tmp := nums[l]
-			nums[l] = nums[i]
-			nums[i] = tmp
-
+		case 2:
+			nums[i] = nums[blueIndex]
+			nums[blueIndex] = 2
+			blueIndex--
+		default:
 			i++
 		}
 	}
-
-	fmt.Printf("%+v", nums)
+	return
 }
 
 func Test27(t *testing.T) {

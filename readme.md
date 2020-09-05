@@ -8,8 +8,8 @@
 283  | 简单 |[移动零](https://leetcode-cn.com/problems/move-zeroes/) | √
 27   | 简单 |[移除元素](https://leetcode-cn.com/problems/remove-element/) | √
 26   | 简单 |[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | √
-80   | 中等 |[删除排序数组中的重复项 II 2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) 
-75   | [颜色分类](https://leetcode-cn.com/problems/sort-colors/) 	  
+80   | 中等 |[删除排序数组中的重复项 II 2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | √
+75   | 中等 |[颜色分类](https://leetcode-cn.com/problems/sort-colors/) | √
 88   | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) 
 215  | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) 
 167  | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) 
