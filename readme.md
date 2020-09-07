@@ -1,6 +1,5 @@
 # 源：https://github.com/liuyubobobo/Play-with-Algorithm-Interview
 
-
 ## 数组
 序号  | 难度 | 题目 | 进度                  
 ---  |---  |---  | ---                   
@@ -20,15 +19,17 @@
 3    | 中等 |[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | √
 438  | 中等 |[找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) 
 76   | 困难 |[最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) 
-_    | _ 
-查找表| _ 
-349  | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) 
-350  | [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) 
-136  | [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) 
-242  | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) 
-202  | [快乐数](https://leetcode-cn.com/problems/happy-number/) 
-290  | [单词规律](https://leetcode-cn.com/problems/word-pattern/) 
-205  | [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/) 
+
+## 查找表(map和set)
+序号  | 难度 | 题目 | 进度                  
+---  |---  |---  | ---   
+349  | 简单 |[两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | √
+350  | 简单 |[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | √
+136  | 简单 |[只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | √
+242  | 简单 |[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | √
+202  | 简单 |[快乐数](https://leetcode-cn.com/problems/happy-number/) | √
+290  | 简单 |[单词规律](https://leetcode-cn.com/problems/word-pattern/) | √
+205  | 简单 |[同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/) 
 451  | [根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) 
 1    | [两数之和](https://leetcode-cn.com/problems/two-sum/) 
 15   | [三数之和](https://leetcode-cn.com/problems/3sum/) 
