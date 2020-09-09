@@ -10,10 +10,13 @@ type ListNode struct {
 	Next *ListNode
 }
 
+// 递归，双指针翻转
 func reverseBetween(head *ListNode, m int, n int) *ListNode {
+
 	return &ListNode{}
 }
 
+// 迭代，
 func reverseBetween2(head *ListNode, m int, n int) *ListNode {
 
 	return &ListNode{}

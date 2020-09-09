@@ -48,8 +48,8 @@
 序号  | 难度 | 题目 | 进度                  
 ---  |---  |---  | ---    
 206  | 简单 |[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | √
-92   | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) 
-83   | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) 
+92   | 中等 |[反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) 
+83   | 简单 |[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | √
 86   | [分隔链表](https://leetcode-cn.com/problems/partition-list/) 
 328  | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)      
 2    | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) 
@@ -109,15 +109,15 @@ _    | _
 230  | [二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
 236  | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) 
 530  | [二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)
-_    | _ 
-递归和回溯法  | _ 
-17   | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
-93   | [复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)
 
-<br>
-131 Palindrome Partitioning
-<br>
-46  Permutations
+
+## 递归和回溯法
+序号  | 难度 | 题目 | 进度                  
+---  |---   |---  | ---     
+17   | 中等 |[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | √
+93   | 中等 |[复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)
+131  | 中等 |[分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/) | √
+46   | 中等 | [全排列](https://leetcode-cn.com/problems/permutations/) | √
 <br>
 47  Permutations 2
 <br>
