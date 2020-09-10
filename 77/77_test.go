@@ -22,62 +22,70 @@ import (
 ]
 */
 
-// 递归实现组合型枚举
+var r [][]int
+
+// 递归
 func combine(n int, k int) (ans [][]int) {
-	return dfs(n, k, 1, []int{}, ans)
+	r = [][]int{}
+	dfs(n, k, 1, []int{}, ans)
+	return r
 }
 
-func dfs(n, k, cur int, temp []int, ans [][]int) [][]int {
+func dfs(n, k, cur int, temp []int, ans [][]int) {
 	// temp 长度加上区间 [cur, n] 的长度小于 k，不可能构造出长度为 k 的 temp
 	if len(temp)+(n-cur+1) < k {
-		return ans
+		return
 	}
 
 	// 记录
 	if len(temp) == k {
 		comb := make([]int, k)
 		copy(comb, temp)
-		ans = append(ans, comb)
-		return ans
+		r = append(r, comb)
+		return
 	}
 
 	// 选择当前
 	temp = append(temp, cur)
-	ans = dfs(n, k, cur+1, temp, ans)
+	dfs(n, k, cur+1, temp, ans)
 
 	// 不选择当前
 	temp = temp[:len(temp)-1]
-	ans = dfs(n, k, cur+1, temp, ans)
-	return ans
+	dfs(n, k, cur+1, temp, ans)
+	return
 }
 
-// 非递归（字典序法）实现组合型枚举
+// 非递归
 func combine2(n int, k int) (ans [][]int) {
-	// 初始化
-	// 将 temp 中 [0, k - 1] 每个位置 i 设置为 i + 1，即 [0, k - 1] 存 [1, k]
-	// 末尾加一位 n + 1 作为哨兵
-	temp := make([]int, 0)
-	for i := 1; i <= k; i++ {
-		temp = append(temp, i)
-	}
-	temp = append(temp, n+1)
+	r = [][]int{}
+	generateCombinations(n, k, 1, []int{})
+	return r
+}
 
-	for j := 0; j < k; {
+// 求解C(n,k), 当前已经找到的组合存储在c中, 需要从start开始搜索新的元素
+func generateCombinations(n, k, start int, temp []int) {
+	// 记录
+	if len(temp) == k {
 		comb := make([]int, k)
-		copy(comb, temp[:k])
-		ans = append(ans, comb)
-		// 寻找第一个 temp[j] + 1 != temp[j + 1] 的位置 t
-		// 我们需要把 [0, t - 1] 区间内的每个位置重置成 [1, t]
-		for j = 0; j < k && temp[j]+1 == temp[j+1]; j++ {
-			temp[j] = j + 1
-		}
-		// j 是第一个 temp[j] + 1 != temp[j + 1] 的位置
-		temp[j]++
+		copy(comb, temp)
+		r = append(r, comb)
+		return
 	}
+
+	// 还有k - len(temp)个空位, 所以, [i...n] 中至少要有 k - len(temp) 个元素
+	// i最多为 n - (k - len(temp)) + 1
+	for i := start; i <= n-(k-len(temp))+1; i++ {
+		temp = append(temp, i)
+		generateCombinations(n, k, i+1, temp)
+		temp = temp[:len(temp)-1]
+	}
+
 	return
 }
 
 func Test77(t *testing.T) {
-	n := combine2(4, 2)
-	fmt.Printf("%+v", n)
+	n := combine(4, 2)
+	fmt.Printf("%+v \n ------------------------------- \n \n", n)
+	n = combine2(4, 2)
+	fmt.Printf("%+v \n ------------------------------- \n \n", n)
 }
