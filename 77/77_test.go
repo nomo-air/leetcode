@@ -27,11 +27,12 @@ var r [][]int
 // 递归
 func combine(n int, k int) (ans [][]int) {
 	r = [][]int{}
-	dfs(n, k, 1, []int{}, ans)
+	dfs(n, k, 1, []int{})
 	return r
 }
 
-func dfs(n, k, cur int, temp []int, ans [][]int) {
+// 求解C(n,k), 当前已经找到的组合存储在temp中, 需要从cur开始搜索新的元素
+func dfs(n, k, cur int, temp []int) {
 	// temp 长度加上区间 [cur, n] 的长度小于 k，不可能构造出长度为 k 的 temp
 	if len(temp)+(n-cur+1) < k {
 		return
@@ -47,11 +48,11 @@ func dfs(n, k, cur int, temp []int, ans [][]int) {
 
 	// 选择当前
 	temp = append(temp, cur)
-	dfs(n, k, cur+1, temp, ans)
+	dfs(n, k, cur+1, temp)
 
 	// 不选择当前
 	temp = temp[:len(temp)-1]
-	dfs(n, k, cur+1, temp, ans)
+	dfs(n, k, cur+1, temp)
 	return
 }
 
@@ -62,8 +63,8 @@ func combine2(n int, k int) (ans [][]int) {
 	return r
 }
 
-// 求解C(n,k), 当前已经找到的组合存储在c中, 需要从start开始搜索新的元素
-func generateCombinations(n, k, start int, temp []int) {
+// 求解C(n,k), 当前已经找到的组合存储在temp中, 需要从cur开始搜索新的元素
+func generateCombinations(n, k, cur int, temp []int) {
 	// 记录
 	if len(temp) == k {
 		comb := make([]int, k)
@@ -74,7 +75,8 @@ func generateCombinations(n, k, start int, temp []int) {
 
 	// 还有k - len(temp)个空位, 所以, [i...n] 中至少要有 k - len(temp) 个元素
 	// i最多为 n - (k - len(temp)) + 1
-	for i := start; i <= n-(k-len(temp))+1; i++ {
+	j := n - (k - len(temp)) + 1
+	for i := cur; i <= j; i++ {
 		temp = append(temp, i)
 		generateCombinations(n, k, i+1, temp)
 		temp = temp[:len(temp)-1]

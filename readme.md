@@ -117,13 +117,10 @@ _    | _
 17   | 中等 |[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | √
 93   | 中等 |[复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)
 131  | 中等 |[分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/) | √
-46   | 中等 | [全排列](https://leetcode-cn.com/problems/permutations/) | √
-<br>
-47  Permutations 2
-<br>
-77  Combinations
-
-79
+46   | 中等 |[全排列](https://leetcode-cn.com/problems/permutations/) | √
+47   | 中等 |[全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | √
+77   | 中等 |[组合](https://leetcode-cn.com/problems/combinations/) | √
+79   | 中等 |[单词搜索](https://leetcode-cn.com/problems/word-search/) 
 
 <br>
 39  Combination Sum
