@@ -47,7 +47,7 @@
 ## 链表
 序号  | 难度 | 题目 | 进度                  
 ---  |---  |---  | ---    
-206  | 简单 |[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | √
+206  | 简单 |[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | ★
 92   | 中等 |[反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) 
 83   | 简单 |[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | √
 86   | [分隔链表](https://leetcode-cn.com/problems/partition-list/) 
@@ -66,8 +66,10 @@
 61   | [旋转链表](https://leetcode-cn.com/problems/rotate-list/) 
 143  | [重排链表](https://leetcode-cn.com/problems/reorder-list/) 
 234  | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) 
-_    | _ 
-栈、队列、优先队列  | _ 
+
+## 栈、队列、优先队列 
+序号  | 难度 | 题目 | 进度                  
+---  |---  |---  | ---  
 20   | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
 150  | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
 71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/)
@@ -86,8 +88,10 @@ _    | _
 286  | [墙与门](https://leetcode-cn.com/problemset/all/?search=286)
 347  | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 23   | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) 
-_    | _ 
-二叉树和递归  | _ 
+
+## 二叉树和递归
+序号  | 难度 | 题目 | 进度                  
+---  |---  |---  | --- 
 104  | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 111  | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 226  | [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
@@ -120,88 +124,51 @@ _    | _
 46   | 中等 |[全排列](https://leetcode-cn.com/problems/permutations/) | √
 47   | 中等 |[全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | √
 77   | 中等 |[组合](https://leetcode-cn.com/problems/combinations/) | √
-79   | 中等 |[单词搜索](https://leetcode-cn.com/problems/word-search/) 
+79   | 中等 |[单词搜索](https://leetcode-cn.com/problems/word-search/) | √
+39   | 中等 |[组合总和](https://leetcode-cn.com/problems/combination-sum/)| 
+40   | 中等 |[组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | 
+216  | 中等 |[组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/) |  
+78   | 中等 |[子集](https://leetcode-cn.com/problems/subsets/) | 
+90   | 中等 |[子集 II](https://leetcode-cn.com/problems/subsets-ii/)|
+401  | 简单 |[二进制手表](https://leetcode-cn.com/problems/binary-watch/)|
+200  | 中等 |[岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | 
+130  | 中等 |[被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)|
+417  | 中等 |[太平洋大西洋水流问题](https://leetcode-cn.com/problems/pacific-atlantic-water-flow/)
+51   | 困难 |[N皇后](https://leetcode-cn.com/problems/n-queens/) | 
+52   | 困难 |[N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/) |
+37   | 困难 |[解数独](https://leetcode-cn.com/problems/sudoku-solver/) |
 
-<br>
-39  Combination Sum
-<br>
-40  Combination Sum 2
-<br>
-216 Combination Sum 3
-<br>
-78  Subsets
-<br>
-90  Subsets 2
-<br>
-401 Binary Watch
-<br>
-79  Word Search
-<br>
-200 Number of Lslands
-<br>
-130 Surrounded Regions
-<br>
-417 Pacific Atlantic Water Flow
-<br>
-51  N-Queens
-<br>
-52  N-Queens 2
-<br>
-37  Sudoku Solver
+## 动态规划基础
+序号 | 难度 | 题目 | 进度                  
+--- |---   |---  | ---   
+509 | 简单 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) | √
+70  | 简单 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | √
+120 | 中等 | [三角形最小路径和](https://leetcode-cn.com/problems/triangle/) | 
+64  | 中等 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)| 
+343 | 中等 | [整数拆分](https://leetcode-cn.com/problems/integer-break/) |
+279 | 中等 | [完全平方数](https://leetcode-cn.com/problems/perfect-squares/) |
+91  | 中等 | [解码方法](https://leetcode-cn.com/problems/decode-ways/) |
+62  | 中等 | [不同路径](https://leetcode-cn.com/problems/unique-paths/) |
+63  | 中等 | [不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/) |
+198 | 简单 | [打家劫舍](https://leetcode-cn.com/problems/house-robber/) |
+213 | 中等 | [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) |
+337 | 中等 | [打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/)|
+309 | 中等 | [最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |
+416 | 中等 | [分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/) |
+322 | 中等 | [零钱兑换](https://leetcode-cn.com/problems/coin-change/) |
+377 | 中等 | [组合总和 Ⅳ](https://leetcode-cn.com/problems/combination-sum-iv/) |
+474 | 中等 | [一和零](https://leetcode-cn.com/problems/ones-and-zeroes/) |
+139 | 中等 | [单词拆分](https://leetcode-cn.com/problems/word-break/) |
+494 | 中等 | [目标和](https://leetcode-cn.com/problems/target-sum/) |
+300 | 中等 | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) |
+376 | 中等 | [摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) |
 
---------动态规划基础
-<br>
-70  Climbing Stairs
-<br>
-120 Triangle
-<br>
-64  Minimum Path Sum
-<br>
-343 Integer Break
-<br>
-279 Perfect Squares
-<br>
-91  Decode Ways
-<br>
-62  Unique Paths
-<br>
-63  Unique Paths 2
-<br>
-198 House Robber
-<br>
-213 House Robber 2
-<br>
-337 House Robber 3
-<br>
-309 Best Time to Buy and Sell Stoch with Cooldown
-<br>
-416 Partition Equal Subset Sum
-<br>
-322 Coin Change
-<br>
-377 Combination Sum 4
-<br>
-474 Ones and Zeroes
-<br>
-139 Word Break
-<br>
-494 Target Sum
-<br>
-300 Longest Increasing Subsequence 
-<br>
-376 Wiggle Subsequence
-<br>
-
--------贪心算法
-455 Assign Cookies
-<br>
-392 Is Subsequence
-<br>
-435 Non-overlapping Intervales
-<br>
-279 Perfect Squares
+## 贪心算法
+序号 | 难度 | 题目 | 进度                  
+--- |---  |---  | ---  
+455 | 简单 | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/)|
+392 | 简单 | [判断子序列](https://leetcode-cn.com/problems/is-subsequence/) |
+435 | 中等 | [无重叠区间](https://leetcode-cn.com/problems/is-subsequence/) |
+279 | 中等 | [完全平方数](https://leetcode-cn.com/problems/perfect-squares/) |
 
 
-
-----
-509 斐波那契数
