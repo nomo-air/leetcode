@@ -6,7 +6,8 @@ import (
 )
 
 // ---------------剪枝-----------------
-var memo []int // memo[i] 表示考虑抢劫 nums[0...i] 所能获得的最大收益
+// memo[i] 表示考虑抢劫 nums[0...i] 所能获得的最大收益
+var memo []int
 
 func rob(nums []int) int {
 	memo = make([]int, len(nums))
@@ -49,6 +50,7 @@ func rob1(nums []int) int {
 	memo[0] = nums[0]
 
 	for i := 1; i < n; i++ {
+		// memo[i]
 		if i-2 >= 0 {
 			memo[i] = max2(memo[i-1], nums[i]+memo[i-2])
 		} else {

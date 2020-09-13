@@ -22,6 +22,7 @@ import (
 */
 
 // ---------------剪枝-----------------
+// memo[i]表示将数字i分割(至少分割成两部分)后得到的最大乘积
 var memo []int
 
 func integerBreak(n int) int {
@@ -71,6 +72,7 @@ func integerBreak1(n int) int {
 	for i := 2; i <= n; i++ {
 		// 求解memo[i]
 		for j := 1; j <= i-1; j++ {
+			// j+(i-j)
 			memo[i] = max3(memo[i], j*(i-j), j*memo[i-j])
 		}
 	}

@@ -5,6 +5,13 @@ import (
 	"testing"
 )
 
+/*
+3^n = O(2^n)
+
+时间复杂度: O(2^len(s))
+空间复杂度: O(len(s))
+*/
+
 var phoneMap map[string]string = map[string]string{
 	"2": "abc",
 	"3": "def",

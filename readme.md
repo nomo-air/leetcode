@@ -118,57 +118,58 @@
 ## 递归和回溯法
 序号  | 难度 | 题目 | 进度                  
 ---  |---   |---  | ---     
-17   | 中等 |[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | √
+17   | 中等 |[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | ★
 93   | 中等 |[复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)
 131  | 中等 |[分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/) | √
-46   | 中等 |[全排列](https://leetcode-cn.com/problems/permutations/) | √
-47   | 中等 |[全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | √
-77   | 中等 |[组合](https://leetcode-cn.com/problems/combinations/) | √
-79   | 中等 |[单词搜索](https://leetcode-cn.com/problems/word-search/) | √
+46   | 中等 |[全排列](https://leetcode-cn.com/problems/permutations/) | ★
+47   | 中等 |[全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | 
+77   | 中等 |[组合](https://leetcode-cn.com/problems/combinations/) |  ★
 39   | 中等 |[组合总和](https://leetcode-cn.com/problems/combination-sum/)| 
 40   | 中等 |[组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | 
 216  | 中等 |[组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/) |  
 78   | 中等 |[子集](https://leetcode-cn.com/problems/subsets/) | 
 90   | 中等 |[子集 II](https://leetcode-cn.com/problems/subsets-ii/)|
 401  | 简单 |[二进制手表](https://leetcode-cn.com/problems/binary-watch/)|
-200  | 中等 |[岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | 
+79   | 中等 |[单词搜索](https://leetcode-cn.com/problems/word-search/) | ★
+200  | 中等 |[岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | ★
 130  | 中等 |[被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)|
 417  | 中等 |[太平洋大西洋水流问题](https://leetcode-cn.com/problems/pacific-atlantic-water-flow/)
-51   | 困难 |[N皇后](https://leetcode-cn.com/problems/n-queens/) | 
+51   | 困难 |[N皇后](https://leetcode-cn.com/problems/n-queens/) | ★
 52   | 困难 |[N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/) |
 37   | 困难 |[解数独](https://leetcode-cn.com/problems/sudoku-solver/) |
 
 ## 动态规划基础
 序号 | 难度 | 题目 | 进度                  
 --- |---   |---  | ---   
-509 | 简单 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) | √
-70  | 简单 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | √
+509 | 简单 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) | ★
+70  | 简单 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | ★
 120 | 中等 | [三角形最小路径和](https://leetcode-cn.com/problems/triangle/) | 
 64  | 中等 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)| 
-343 | 中等 | [整数拆分](https://leetcode-cn.com/problems/integer-break/) |
+343 | 中等 | [整数拆分](https://leetcode-cn.com/problems/integer-break/) ★
 279 | 中等 | [完全平方数](https://leetcode-cn.com/problems/perfect-squares/) |
 91  | 中等 | [解码方法](https://leetcode-cn.com/problems/decode-ways/) |
 62  | 中等 | [不同路径](https://leetcode-cn.com/problems/unique-paths/) |
 63  | 中等 | [不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/) |
-198 | 简单 | [打家劫舍](https://leetcode-cn.com/problems/house-robber/) |
+198 | 简单 | [打家劫舍](https://leetcode-cn.com/problems/house-robber/) | ★
 213 | 中等 | [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) |
 337 | 中等 | [打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/)|
 309 | 中等 | [最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |
-416 | 中等 | [分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/) |
+_   | _   |  0-1背包问题 | ★
+416 | 中等 | [分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/) | ★
 322 | 中等 | [零钱兑换](https://leetcode-cn.com/problems/coin-change/) |
 377 | 中等 | [组合总和 Ⅳ](https://leetcode-cn.com/problems/combination-sum-iv/) |
 474 | 中等 | [一和零](https://leetcode-cn.com/problems/ones-and-zeroes/) |
 139 | 中等 | [单词拆分](https://leetcode-cn.com/problems/word-break/) |
 494 | 中等 | [目标和](https://leetcode-cn.com/problems/target-sum/) |
-300 | 中等 | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) |
+300 | 中等 | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | ★
 376 | 中等 | [摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/) |
 
 ## 贪心算法
 序号 | 难度 | 题目 | 进度                  
 --- |---  |---  | ---  
-455 | 简单 | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/)|
+455 | 简单 | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/)| ★
 392 | 简单 | [判断子序列](https://leetcode-cn.com/problems/is-subsequence/) |
-435 | 中等 | [无重叠区间](https://leetcode-cn.com/problems/is-subsequence/) |
+435 | 中等 | [无重叠区间](https://leetcode-cn.com/problems/is-subsequence/) | ★
 279 | 中等 | [完全平方数](https://leetcode-cn.com/problems/perfect-squares/) |
 
 
