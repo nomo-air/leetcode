@@ -1,33 +1,32 @@
 package _75
 
 import (
+	"fmt"
 	"testing"
 )
 
+/*
+三路快速排序的思想，对整个数组只遍历了一遍
+时间复杂度: O(n)
+空间复杂度: O(1)
+*/
+
 func sortColors(nums []int) {
-	if nums == nil || len(nums) == 0 {
-		return
-	}
-
-	redIndex := 0
-	blueIndex := len(nums) - 1
-
-	for i := 0; i <= blueIndex; {
-		switch nums[i] {
-		case 0:
-			nums[i] = nums[redIndex]
-			nums[redIndex] = 0
-			redIndex++
+	zero := -1       // [0...zero] == 0
+	two := len(nums) // [two...n-1] == 2
+	for i := 0; i < two; {
+		if nums[i] == 1 {
 			i++
-		case 2:
-			nums[i] = nums[blueIndex]
-			nums[blueIndex] = 2
-			blueIndex--
-		default:
+		} else if nums[i] == 2 {
+			two--
+			nums[i], nums[two] = nums[two], nums[i]
+		} else { // nums[i] == 0
+			zero++
+			nums[zero], nums[i] = nums[i], nums[zero]
 			i++
 		}
 	}
-	return
+	fmt.Printf("%+v", nums)
 }
 
 func Test27(t *testing.T) {

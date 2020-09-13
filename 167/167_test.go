@@ -5,16 +5,25 @@ import (
 	"testing"
 )
 
-func twoSum(numbers []int, target int) []int {
-	numbersMap := make(map[int]int, 0)
-	for i, v := range numbers {
-		numbersMap[v] = i
-	}
+/*
+对撞指针
+时间复杂度: O(n)
+空间复杂度: O(1)
+*/
 
-	for i, v := range numbers {
-		retValue := target - v
-		if valueIndex, ok := numbersMap[retValue]; ok {
-			return []int{i + 1, valueIndex + 1}
+func twoSum(numbers []int, target int) []int {
+	l := 0
+	r := len(numbers) - 1
+	for l < r {
+
+		if numbers[l]+numbers[r] == target {
+			return []int{l + 1, r + 1}
+
+		} else if numbers[l]+numbers[r] < target {
+			l++
+
+		} else { // numbers[l] + numbers[r] > target
+			r--
 		}
 	}
 	return []int{}

@@ -50,17 +50,6 @@ func breakInteger(n int) int {
 	return res
 }
 
-func max3(a, b, c int) int {
-	return max2(a, max2(b, c))
-}
-
-func max2(b, c int) int {
-	if b >= c {
-		return b
-	}
-	return c
-}
-
 // ---------------动态规划-----------------
 func integerBreak1(n int) int {
 
@@ -77,6 +66,17 @@ func integerBreak1(n int) int {
 		}
 	}
 	return memo[n]
+}
+
+func max3(a, b, c int) int {
+	return max2(a, max2(b, c))
+}
+
+func max2(b, c int) int {
+	if b >= c {
+		return b
+	}
+	return c
 }
 
 func Test343(t *testing.T) {

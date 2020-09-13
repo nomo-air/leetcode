@@ -5,28 +5,40 @@ import (
 	"testing"
 )
 
+/*
+滑动窗口
+时间复杂度: O(len(s))
+空间复杂度: O(len(charset))
+*/
 func lengthOfLongestSubstring(s string) int {
-	m := map[byte]int{} // 记录无重复字串字符
+	freq := [256]int{}
+
+	l := 0
+	r := -1 //滑动窗口为s[l...r]
+	res := 0
 	n := len(s)
-	rp, ans := -1, 0 // 右指针起始-1
-	for i := 0; i < n; i++ {
-		if i != 0 {
-			delete(m, s[i-1]) // 向右移滑一格，移除最左边的一个字符
+
+	// 整个循环从 l == 0; r == -1 这个空窗口开始
+	// 到l == s.size(); r == s.size()-1 这个空窗口截止
+	// 在每次循环里逐渐改变窗口, 维护freq, 并记录当前窗口中是否找到了一个新的最优值
+	for l < n {
+		if (r+1 < n) && freq[s[r+1]] == 0 {
+			r++
+			freq[s[r]]++
+		} else { //r已经到头 || freq[s[r+1]] == 1
+			freq[s[l]]--
+			l++
 		}
-		for rp+1 < n && m[s[rp+1]] == 0 { // 0不存在；1存在
-			m[s[rp+1]] = 1
-			rp++ // 不断地移动右指针
-		}
-		ans = max(ans, rp-i+1) // i~rp为无重复子串
+		res = max2(res, r-l+1)
 	}
-	return ans
+	return res
 }
 
-func max(x, y int) int {
-	if x < y {
-		return y
+func max2(x, y int) int {
+	if x > y {
+		return x
 	}
-	return x
+	return y
 }
 
 func Test345(t *testing.T) {
