@@ -23,26 +23,26 @@
 ## 查找表(map和set)
 序号  | 难度 | 题目 | 进度                  
 ---  |---  |---  | ---   
-349  | 简单 |[两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | √
-350  | 简单 |[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | √
+349  | 简单 |[两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) |  ★
+350  | 简单 |[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | ★
 136  | 简单 |[只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | √
 242  | 简单 |[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | √
 202  | 简单 |[快乐数](https://leetcode-cn.com/problems/happy-number/) | √
 290  | 简单 |[单词规律](https://leetcode-cn.com/problems/word-pattern/) | √
 205  | 简单 |[同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/) 
 451  | [根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) 
-1    | [两数之和](https://leetcode-cn.com/problems/two-sum/) 
+1    | [两数之和](https://leetcode-cn.com/problems/two-sum/) | ★
 15   | [三数之和](https://leetcode-cn.com/problems/3sum/) 
 18   | [四数之和](https://leetcode-cn.com/problems/4sum/) 
 16   | [最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) 
-454  | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) 
+454  | [四数相加 II](https://leetcode-cn.com/problems/4sum-ii/) | ★
 49   | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) 
-447  | [回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/) 
+447  | [回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/) | ★
 149  | [直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/) 
 719  | [找出第 k 小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/) 
-219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) 
+219  | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) | ★
 217  | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) 
-220  | [存在重复元素 III](https://leetcode-cn.com/problems/contains-duplicate-iii/) 
+220  | [存在重复元素 III](https://leetcode-cn.com/problems/contains-duplicate-iii/) | ★
 
 ## 链表
 序号  | 难度 | 题目 | 进度                  
@@ -54,10 +54,10 @@
 328  | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)      
 2    | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) 
 445  | [两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii/) 
-203  | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/) 
+203  | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)  | todo.34:13
 82   | [删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) 
 21   | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 
-24   | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) 
+24   | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)  | √
 25   | [K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 
 147  | [对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) 
 148  | [排序链表](https://leetcode-cn.com/problems/sort-list/) 

@@ -5,6 +5,10 @@ import (
 	"testing"
 )
 
+/*
+时间复杂度: O(nlogk)
+空间复杂度: O(k)
+*/
 func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
 
 	return true
