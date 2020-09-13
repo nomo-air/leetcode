@@ -5,6 +5,11 @@ import (
 	"testing"
 )
 
+/*
+时间复杂度: O(n)
+空间复杂度: O(n)
+*/
+
 func moveZeroes(nums []int) {
 	nonZeroNums := make([]int, 0)
 	for _, n := range nums {
