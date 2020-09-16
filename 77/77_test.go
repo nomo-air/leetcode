@@ -82,8 +82,8 @@ func generateCombinations(n, k, cur int, temp []int) {
 
 	// 还有k - len(temp)个空位, 所以, [i...n] 中至少要有 k - len(temp) 个元素
 	// i最多为 n - (k - len(temp)) + 1
-	j := n - (k - len(temp)) + 1
-	for i := cur; i <= j; i++ {
+	maxI := n - (k - len(temp)) + 1
+	for i := cur; i <= maxI; i++ {
 		temp = append(temp, i)
 		generateCombinations(n, k, i+1, temp)
 		temp = temp[:len(temp)-1]

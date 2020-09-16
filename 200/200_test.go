@@ -45,7 +45,6 @@ func dfs(grid [][]byte, x, y int) {
 		newY := y + d[i][1]
 		if inArea(newX, newY) && !visited[newX][newY] && grid[newX][newY] == '1' {
 			dfs(grid, newX, newY)
-
 		}
 	}
 	return

@@ -42,6 +42,6 @@ func climbStairs1(n int) int {
 }
 
 func Test70(t *testing.T) {
-	fmt.Printf("剪枝:%+v \n", climbStairs(3))
-	fmt.Printf("动态规划:%+v \n", climbStairs1(3))
+	fmt.Printf("剪枝:%+v \n", climbStairs(9))
+	fmt.Printf("动态规划:%+v \n", climbStairs1(9))
 }

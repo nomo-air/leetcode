@@ -55,6 +55,7 @@ func fib2(n int) int {
 }
 
 func Test509(t *testing.T) {
-	s := fib1(9)
-	fmt.Printf("%+v", s)
+	fmt.Printf("递归：%+v \n", fib(9))
+	fmt.Printf("剪枝：%+v \n", fib1(9))
+	fmt.Printf("动态规划：%+v \n", fib2(9))
 }

@@ -5,13 +5,17 @@ import (
 	"testing"
 )
 
+/*
+回溯法
+时间复杂度: O(m*n*m*n)
+空间复杂度: O(m*n)
+*/
 var m, n int
 var visited [][]bool
-
 var d = [][]int{
+	{1, 0},
 	{-1, 0},
 	{0, 1},
-	{1, 0},
 	{0, -1},
 }
 
@@ -36,21 +40,15 @@ func exist(board [][]byte, word string) bool {
 
 // 从board[startX][startY]开始, 寻找word[index...word.size())
 func searchWord(board [][]byte, word string, index, startX, startY int) bool {
-	fmt.Printf("index:%d，len:%d \n", index, len(word)-1)
 	if index == len(word)-1 {
 		return board[startX][startY] == word[index]
 	}
-
-	fmt.Printf("board[startX:%d][startY:%d] (%s) == word[index:%d] (%s) \n", startX, startY, string(board[startX][startY]), index, string(word[index]))
 	if board[startX][startY] == word[index] {
 		visited[startX][startY] = true
 		// 从startX, startY出发,向四个方向寻
 		for i := 0; i < 4; i++ {
 			newX := startX + d[i][0]
 			newY := startY + d[i][1]
-
-			fmt.Printf("newY:%d newX:%d inArea:%v \n", newX, newY, inArea(newX, newY))
-
 			if inArea(newX, newY) && !visited[newX][newY] && searchWord(board, word, index+1, newX, newY) {
 				return true
 			}
