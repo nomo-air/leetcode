@@ -154,7 +154,7 @@
 213 | 中等 | [打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) |
 337 | 中等 | [打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/)|
 309 | 中等 | [最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |
-0   | 中等 |  0-1背包问题 | ★
+0   | 中等 | [0-1背包问题](https://github.com/nomo-air/leetcode/blob/master/0/0_test.go) | ★
 416 | 中等 | [分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/) | ★
 322 | 中等 | [零钱兑换](https://leetcode-cn.com/problems/coin-change/) |
 377 | 中等 | [组合总和 Ⅳ](https://leetcode-cn.com/problems/combination-sum-iv/) |
