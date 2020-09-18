@@ -5,42 +5,32 @@ import (
 	"testing"
 )
 
+/*
+时间复杂度: O(n)
+空间复杂度: O(1)
+*/
+
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
 
 func swapPairs(head *ListNode) *ListNode {
-	if head == nil || head.Next == nil {
-		return head
-	}
-
-	firstNode := head
-	secondNode := head.Next
-
-	firstNode.Next = swapPairs(secondNode.Next)
-	secondNode.Next = firstNode
-
-	return secondNode
-}
-
-func swapPairs2(head *ListNode) *ListNode {
-
 	dummyHead := &ListNode{}
 	dummyHead.Next = head
 
 	prevNode := dummyHead
+	for prevNode.Next != nil && prevNode.Next.Next != nil {
+		node1 := prevNode.Next
+		node2 := node1.Next
 
-	for head != nil && head.Next != nil {
-		firstNode := head
-		secondNode := head.Next
+		next := node2.Next
 
-		prevNode.Next = secondNode
-		firstNode.Next = secondNode.Next
-		secondNode.Next = firstNode
+		node2.Next = node1
+		node1.Next = next
 
-		prevNode = firstNode
-		head = firstNode.Next
+		prevNode.Next = node2
+		prevNode = node1
 	}
 
 	return dummyHead.Next
@@ -48,7 +38,7 @@ func swapPairs2(head *ListNode) *ListNode {
 
 func Test24(t *testing.T) {
 	// 2 -> 1 -> 4 -> 3
-	s := swapPairs2(&ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, nil}}}})
+	s := swapPairs(&ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, nil}}}})
 	for s != nil {
 		fmt.Printf("%+v \n", s)
 		s = s.Next

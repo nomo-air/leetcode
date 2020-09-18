@@ -54,15 +54,15 @@
 328  | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)      
 2    | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) 
 445  | [两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii/) 
-203  | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)  | todo.34:13
+203  | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)  | ★
 82   | [删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) 
 21   | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 
-24   | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)  | √
+24   | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)  | ★
 25   | [K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 
 147  | [对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) 
 148  | [排序链表](https://leetcode-cn.com/problems/sort-list/) 
-237  | [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) 
-19   | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) 
+237  | [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)  | ★
+19   | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)  | ★
 61   | [旋转链表](https://leetcode-cn.com/problems/rotate-list/) 
 143  | [重排链表](https://leetcode-cn.com/problems/reorder-list/) 
 234  | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) 

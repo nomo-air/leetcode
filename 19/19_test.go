@@ -11,7 +11,24 @@ type ListNode struct {
 }
 
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
-	return &ListNode{}
+	dummyHead := &ListNode{}
+	dummyHead.Next = head
+
+	length := 0
+	for cur := dummyHead.Next; cur != nil; cur = cur.Next {
+		length++
+	}
+
+	k := length - n
+	cur := dummyHead
+	for i := 0; i < k; i++ {
+		cur = cur.Next
+
+	}
+
+	cur.Next = cur.Next.Next
+
+	return dummyHead.Next
 }
 
 func Test19(t *testing.T) {
