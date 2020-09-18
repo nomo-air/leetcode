@@ -5,25 +5,39 @@ import (
 	"testing"
 )
 
+/*
+二叉树的前序遍历
+时间复杂度: O(n), n为树的节点个数
+空间复杂度: O(h), h为树的高度
+*/
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
 }
 
+var r []int
+
 func preorderTraversal(root *TreeNode) []int {
-	return pre(root, []int{})
+	r = make([]int, 0)
+	pre(root)
+	return r
 }
 
-func pre(root *TreeNode, nums []int) (retNums []int) {
+func pre(root *TreeNode) {
 	if root == nil {
-		return nums
+		return
 	}
-	nums = append(nums, root.Val)
-	nums = pre(root.Left, nums)
-	nums = pre(root.Right, nums)
-	return nums
+	r = append(r, root.Val)
+	pre(root.Left)
+	pre(root.Right)
 }
+
+/*
+非递归二叉树的前序遍历
+时间复杂度: O(n), n为树的节点个数
+空间复杂度: O(h), h为树的高度
+*/
 
 func Test328(t *testing.T) {
 	// 1,2,3

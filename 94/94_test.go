@@ -5,24 +5,33 @@ import (
 	"testing"
 )
 
+/*
+二叉树的中序遍历
+时间复杂度: O(n), n为树的节点个数
+空间复杂度: O(h), h为树的高度
+*/
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
 }
 
+var r []int
+
 func inorderTraversal(root *TreeNode) []int {
-	return in(root, []int{})
+	r = make([]int, 0)
+	in(root)
+	return r
 }
 
-func in(root *TreeNode, nums []int) (retNums []int) {
+func in(root *TreeNode) {
 	if root == nil {
-		return nums
+		return
 	}
-	nums = in(root.Left, nums)
-	nums = append(nums, root.Val)
-	nums = in(root.Right, nums)
-	return nums
+	in(root.Left)
+	r = append(r, root.Val)
+	in(root.Right)
+
 }
 
 func Test94(t *testing.T) {

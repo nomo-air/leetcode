@@ -70,23 +70,23 @@
 ## 栈、队列、优先队列 
 序号  | 难度 | 题目 | 进度                  
 ---  |---  |---  | ---  
-20   | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+20   | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | ★
 150  | [逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
 71   | [简化路径](https://leetcode-cn.com/problems/simplify-path/)
-144  | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
-94   | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
-145  | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
-341  | [扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)
+144  | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | ★
+94   | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | ★
+145  | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | ★
+341  | [扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)| ★
 102  | [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 107  | [二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
 103  | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
 199  | [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
 346  | [数据流中的移动平均值](https://leetcode-cn.com/problemset/all/?search=346)
-279  | [完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
+279  | [完全平方数](https://leetcode-cn.com/problems/perfect-squares/)| ★
 127  | [单词接龙](https://leetcode-cn.com/problems/word-ladder/)
 126  | [单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
 286  | [墙与门](https://leetcode-cn.com/problemset/all/?search=286)
-347  | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+347  | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)| 1111
 23   | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) 
 
 ## 二叉树和递归

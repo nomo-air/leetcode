@@ -5,26 +5,36 @@ import (
 	"testing"
 )
 
+/*
+二叉树的后序遍历
+时间复杂度: O(n), n为树的节点个数
+空间复杂度: O(h), h为树的高度
+*/
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
 }
 
+var r []int
+
 func postorderTraversal(root *TreeNode) []int {
-	return next(root, []int{})
+	r = make([]int, 0)
+	next(root)
+	return r
 }
 
-func next(root *TreeNode, nums []int) (retNums []int) {
+func next(root *TreeNode) {
 	if root == nil {
-		return nums
+		return
 	}
 
-	nums = next(root.Left, nums)
-	nums = next(root.Right, nums)
-	nums = append(nums, root.Val)
-	return nums
+	next(root.Left)
+	next(root.Right)
+	r = append(r, root.Val)
 }
+
+// ---------------------------------------------
 
 func Test145(t *testing.T) {
 	// 3,2,1
