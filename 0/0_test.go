@@ -58,6 +58,7 @@ func bestValue(w, v []int, index, c int) int {
 	if c >= w[index] {
 		res = max2(res, v[index]+bestValue(w, v, index-1, c-w[index]))
 	}
+
 	memo[index][c] = res
 	return memo[index][c]
 }
@@ -82,6 +83,7 @@ func knapsack011(w []int, v []int, c int) int {
 
 	memo := make([]int, c+1)
 
+	// j当前背包容量，只选第一个物品，该物品能不能装进背包
 	for j := 0; j <= c; j++ {
 		if j >= w[0] {
 			memo[j] = v[0]
@@ -107,6 +109,19 @@ func max2(b, c int) int {
 }
 
 func Test01(t *testing.T) {
-	fmt.Printf("剪枝：%+v \n", knapsack01([]int{2, 1, 3}, []int{4, 2, 3}, 4))
-	fmt.Printf("动态规划：%+v \n", knapsack011([]int{2, 1, 3}, []int{4, 2, 3}, 4))
+	fmt.Printf("剪枝：%+v \n", knapsack01([]int{1, 2, 3}, []int{6, 10, 12}, 5))
+	fmt.Printf("动态规划：%+v \n", knapsack011([]int{1, 2, 3}, []int{6, 10, 12}, 5))
 }
+
+/*
+有一个容量为5的背包
+
+| id    | 0 | 1  | 2
+| weight| 1 | 2  | 3
+| value	| 6 | 10 | 12
+
+| - | 0 | 1 | 2  | 3  | 4  | 5
+| 1 | 0 | 6 | 6  | 6  | 6  | 6
+| 2 | 0 | 6 | 10 | 16 | 16 | 16
+| 3 | 0 | 6 | 10 | 16 | 18 | 22
+*/
