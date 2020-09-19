@@ -36,6 +36,15 @@ func next(root *TreeNode) {
 
 // ---------------------------------------------
 
+/*
+           1
+         /  \
+		2	 3
+      /  \  / \
+	 4	 5 6  7
+    / \
+   8  9
+*/
 func Test145(t *testing.T) {
 	// 3,2,1
 	nums := postorderTraversal(&TreeNode{1, nil, &TreeNode{2, &TreeNode{3, nil, nil}, nil}})

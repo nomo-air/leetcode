@@ -34,6 +34,30 @@ func in(root *TreeNode) {
 
 }
 
+func inorderTraversal1(root *TreeNode) (res []int) {
+	stack := []*TreeNode{}
+	for root != nil || len(stack) > 0 {
+		for root != nil {
+			stack = append(stack, root)
+			root = root.Left
+		}
+		root = stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
+		res = append(res, root.Val)
+		root = root.Right
+	}
+	return
+}
+
+/*
+           1
+         /  \
+		2	 3
+      /  \  / \
+	 4	 5 6  7
+    / \
+   8  9
+*/
 func Test94(t *testing.T) {
 	// 1,3,2
 	nums := inorderTraversal(&TreeNode{1, nil, &TreeNode{2, &TreeNode{3, nil, nil}, nil}})
