@@ -2,7 +2,6 @@ package _144
 
 import (
 	"fmt"
-	stacks "leetcode/collections/stack"
 	"testing"
 )
 
@@ -43,22 +42,23 @@ func pre(root *TreeNode) {
 func pre1(root *TreeNode) []int {
 	r = make([]int, 0)
 
-	stack := stacks.New()
+	stack := make([]*TreeNode, 0)
 	cur := root
-	stack.Push(root)
+	stack = append(stack, cur)
 
-	for stack.Len() > 0 {
+	for len(stack) > 0 {
 
 		// pop
-		cur = stack.Pop().(*TreeNode)
+		cur = stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
 		r = append(r, cur.Val)
 
 		// push
 		if cur != nil && cur.Right != nil {
-			stack.Push(cur.Right)
+			stack = append(stack, cur.Right)
 		}
 		if cur != nil && cur.Left != nil {
-			stack.Push(cur.Left)
+			stack = append(stack, cur.Left)
 		}
 
 	}
