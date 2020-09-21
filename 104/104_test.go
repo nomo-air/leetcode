@@ -5,6 +5,10 @@ import (
 	"testing"
 )
 
+/*
+时间复杂度: O(n), n是树中的节点个数
+空间复杂度: O(h), h是树的高度
+*/
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -25,18 +29,17 @@ func max(a, b int) int {
 	return b
 }
 
-func maxDepth2(root *TreeNode) int {
+func maxDepth1(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
-	queue := []*TreeNode{}
+	queue := make([]*TreeNode, 0)
 	queue = append(queue, root)
 	ans := 0
 	for len(queue) > 0 {
 		sz := len(queue)
 		for sz > 0 {
 			firstNode := queue[0]
-			fmt.Printf("cap:%d \n", cap(queue))
 			queue = queue[1:]
 			if firstNode.Left != nil {
 				queue = append(queue, firstNode.Left)
@@ -52,6 +55,6 @@ func maxDepth2(root *TreeNode) int {
 }
 
 func Test104(t *testing.T) {
-	b := maxDepth(&TreeNode{3, &TreeNode{9, nil, nil}, &TreeNode{20, &TreeNode{15, nil, nil}, &TreeNode{7, nil, nil}}})
-	fmt.Printf("%+v", b)
+	fmt.Printf("递归：%d \n", maxDepth(&TreeNode{3, &TreeNode{9, nil, nil}, &TreeNode{20, &TreeNode{15, nil, nil}, &TreeNode{7, nil, nil}}}))
+	fmt.Printf("非递归：%d \n", maxDepth1(&TreeNode{3, &TreeNode{9, nil, nil}, &TreeNode{20, &TreeNode{15, nil, nil}, &TreeNode{7, nil, nil}}}))
 }

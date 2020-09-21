@@ -11,6 +11,10 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+/*
+时间复杂度: O(n), n为树中节点个数
+空间复杂度: O(h), h为树的高度
+*/
 func invertTree(root *TreeNode) *TreeNode {
 	if root == nil {
 		return nil
