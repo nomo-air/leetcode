@@ -44,7 +44,6 @@ func breakInteger(n int) int {
 
 // ---------------动态规划-----------------
 func integerBreak1(n int) int {
-
 	// memo[i]表示将数字i分割(至少分割成两部分)后得到的最大乘积
 	memo = make([]int, n+1)
 	for i := range memo {
@@ -54,7 +53,7 @@ func integerBreak1(n int) int {
 	for i := 2; i <= n; i++ {
 		// 求解memo[i]
 		for j := 1; j <= i-1; j++ {
-			// 分解i = j+(i-j)
+			// 分解i， i = j+(i-j)
 			memo[i] = max3(memo[i], j*(i-j), j*memo[i-j])
 		}
 	}
@@ -73,6 +72,6 @@ func max2(b, c int) int {
 }
 
 func Test343(t *testing.T) {
-	fmt.Printf("-----------------剪枝:%+v \n", integerBreak(99))
-	fmt.Printf("-----------------动态规划:%+v \n", integerBreak1(99))
+	fmt.Printf("剪枝:%+v \n", integerBreak(99))
+	fmt.Printf("动态规划:%+v \n", integerBreak1(99))
 }
