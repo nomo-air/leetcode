@@ -11,7 +11,6 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-// 在以root为根节点的二叉树中,寻找和为sum的路径,返回这样的路径个数
 func pathSum(root *TreeNode, sum int) int {
 	if root == nil {
 		return 0
@@ -29,8 +28,7 @@ func findPath(node *TreeNode, num int) int {
 
 	res := 0
 	if node.Val == num {
-		res += 1
-
+		res++
 	}
 
 	res += findPath(node.Left, num-node.Val)

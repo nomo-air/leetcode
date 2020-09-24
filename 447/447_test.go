@@ -12,7 +12,7 @@ import (
 func numberOfBoomerangs(points [][]int) int {
 	res := 0
 	for i := 0; i < len(points); i++ {
-		// record中存储 点i到所有其他点的距离出现的频次
+		// record中存储点i到所有其他点的距离出现的频次
 		record := make(map[int]int, 0)
 		for j := 0; j < len(points); j++ {
 			if j != i {
@@ -24,10 +24,10 @@ func numberOfBoomerangs(points [][]int) int {
 					record[dis] = 1
 				}
 			}
+		}
 
-			for _, v := range record {
-				res += v * (v - 1)
-			}
+		for _, v := range record {
+			res += v * (v - 1)
 		}
 	}
 

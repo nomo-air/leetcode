@@ -22,6 +22,9 @@ var d = [][]int{
 
 func numIslands(grid [][]byte) int {
 	m = len(grid)
+	if m <= 0 {
+		return 0
+	}
 	n = len(grid[0])
 
 	visited = make([][]bool, m)

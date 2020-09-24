@@ -19,7 +19,16 @@ import (
 */
 
 // 最终结果
-var result [][]int
+var res [][]int
+
+func permute(nums []int) [][]int {
+	var pathNums []int
+	var used = make([]bool, len(nums))
+	// 清空全局数组（leetcode多次执行全局变量不会消失）
+	res = [][]int{}
+	backtrack(nums, pathNums, used)
+	return res
+}
 
 // 回溯核心
 // nums: 原始列表
@@ -32,7 +41,7 @@ func backtrack(nums, pathNums []int, used []bool) {
 		// 切片底层公用数据，所以要copy
 		copy(tmp, pathNums)
 		// 把本次结果追加到最终结果上
-		result = append(result, tmp)
+		res = append(res, tmp)
 		return
 	}
 
@@ -51,15 +60,6 @@ func backtrack(nums, pathNums []int, used []bool) {
 			used[i] = false
 		}
 	}
-}
-
-func permute(nums []int) [][]int {
-	var pathNums []int
-	var used = make([]bool, len(nums))
-	// 清空全局数组（leetcode多次执行全局变量不会消失）
-	result = [][]int{}
-	backtrack(nums, pathNums, used)
-	return result
 }
 
 func Test46(t *testing.T) {

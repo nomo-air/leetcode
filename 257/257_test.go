@@ -43,6 +43,13 @@ func binaryTreePaths(root *TreeNode) []string {
 	return res
 }
 
+/*
+		   1
+ 		 /  \
+		2    3
+       / \
+      4   5
+*/
 func Test257(t *testing.T) {
 	s := binaryTreePaths(&TreeNode{1, &TreeNode{2, &TreeNode{4, nil, nil}, &TreeNode{5, nil, nil}}, &TreeNode{3, nil, nil}})
 	fmt.Printf("%+v \n", s)

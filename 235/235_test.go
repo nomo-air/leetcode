@@ -36,8 +36,17 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	return root
 }
 
+/*
+              6
+		  /      \
+		 2       8
+       /  \     / \
+      0   4    7   9
+        /  \
+       3    5
+*/
 func Test235(t *testing.T) {
 	fmt.Printf("%+v", lowestCommonAncestor(&TreeNode{6, &TreeNode{2, &TreeNode{0, nil, nil}, &TreeNode{4, &TreeNode{3, nil, nil}, &TreeNode{5, nil, nil}}},
 		&TreeNode{8, &TreeNode{7, nil, nil}, &TreeNode{9, nil, nil}}},
-		&TreeNode{2, nil, nil}, &TreeNode{8, nil, nil}))
+		&TreeNode{2, nil, nil}, &TreeNode{4, nil, nil}))
 }
